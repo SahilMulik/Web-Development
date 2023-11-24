@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+div>p:first-child{
+  background-color: yellow;
+  color: red;
+}
+  div>p{
+    background-color: blue;
+    
+    color: white
+  }
