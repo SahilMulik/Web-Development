@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {:
+      font-size: 12px;
+    }
+
+    .box {
+      box-sizing: border-box;
+      border: 2px solid black;
+      /* width: 2048px; */
+      width: 80vw;
+      height: 10vh;
+      margin: auto;
+      background-color: aquamarine;
+    }
+
+    .container {
+      box-sizing: border-box;
+      border: 2px solid black;
+      /* width: 2048px; */
+      width: 20vw;
+      /* height: 80vh; */
+      min-height: 80vh;
+      margin: 23px auto;
+      font-size: 18px;
+      background-color: aquamarine;
+    }
+
+    .container>div {
+      font-size: 1.5em;
+      border: 2px solid red;
+      width: 50%;
+    }
+
+    .container>div>div {
+      border: 2px solid blue;
+      width: 50%;
+    }
+
+    .mycont {
+      border: 2px solid black;
+      box-sizing: border-box;
+      margin: 23px auto;
+      color: rgb(0, 0, 0);
+      font-size: 12px;
+      /* width: 100vmin; */
+      width: 80vw;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    This is a box
+  </div>
+
+  <div class="container">
+    <div>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus quia quod iste dolorem
+      voluptatem fuga quidem aspernatur. Nihil ipsa sint quae, beatae explicabo saepe impedit laboriosam magni
+      cupiditate expedita voluptates consequatur odit veritatis dolorum doloribus. Iure nemo odit dicta, delectus,
+      modi reiciendis maiores ut quo adipisci libero quam laboriosam nihil voluptate natus nobis earum ad?
+
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis voluptas est aliquam, dolores rem
+        laudantium nulla maiores odio fugit, totam voluptatem saepe!
+      </div>
+    </div>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed sit amet velit sagittis, tristique libero non, pharetra leo. Praesent vel sapien ex. Donec placerat lacinia metus, at tincidunt diam feugiat non. Vivamus venenatis enim vitae magna volutpat, nec finibus nisl luctus. Fusce auctor arcu in diam bibendum elementum. Nulla nec libero a ligula viverra ultrices. Proin consequat, nisi nec efficitur accumsan, urna arcu fringilla turpis, a consectetur tortor velit in eros. Nulla varius nibh in tellus scelerisque, vel accumsan mi fermentum. Sed fermentum magna sed diam dapibus bibendum.
+</p>
+<!-- Repeat this paragraph 999 times -->
+  </div>
+
+  <div class="mycont">
+    I am another container
+  </div>
+</body>
+
+</html>
